@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormComplejos-G3-2022-I", "FormComplejos-G3-2022-I.csproj", "{2ABB0640-550F-4280-878B-6A3CEB9DE89C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complejos", "Complejos\Complejos.csproj", "{4A6A955E-605A-4837-909A-664598A73DF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ABB0640-550F-4280-878B-6A3CEB9DE89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABB0640-550F-4280-878B-6A3CEB9DE89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABB0640-550F-4280-878B-6A3CEB9DE89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABB0640-550F-4280-878B-6A3CEB9DE89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6A955E-605A-4837-909A-664598A73DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6A955E-605A-4837-909A-664598A73DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6A955E-605A-4837-909A-664598A73DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6A955E-605A-4837-909A-664598A73DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2A9A154-D91B-4506-893C-C8B663B8BCE9}
+	EndGlobalSection
+EndGlobal
