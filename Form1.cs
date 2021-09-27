@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Complejos;
 namespace FormComplejos_G3_2022_I
 {
     public partial class Form1 : Form
@@ -15,6 +15,12 @@ namespace FormComplejos_G3_2022_I
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnSumar_Click(object sender, EventArgs e)
+        {
+            
+
         }
     }
 }
