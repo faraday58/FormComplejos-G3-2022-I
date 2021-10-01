@@ -9,6 +9,7 @@ namespace Complejos
 
         public Complejo(float real, float imaginaria)
         {
+            
             this.real = real;
             this.imaginaria = imaginaria;
         }
