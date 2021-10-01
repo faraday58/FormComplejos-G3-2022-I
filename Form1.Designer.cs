@@ -29,6 +29,7 @@ namespace FormComplejos_G3_2022_I
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txtbRealComplejo1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtbImaginarioComplejo2 = new System.Windows.Forms.TextBox();
@@ -43,6 +44,8 @@ namespace FormComplejos_G3_2022_I
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtbRealComplejo1
@@ -164,6 +167,10 @@ namespace FormComplejos_G3_2022_I
             this.label8.TabIndex = 1;
             this.label8.Text = "Imaginaria";
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
@@ -185,6 +192,7 @@ namespace FormComplejos_G3_2022_I
             this.Controls.Add(this.txtbRealComplejo1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,6 +214,7 @@ namespace FormComplejos_G3_2022_I
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
 

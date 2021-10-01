@@ -6,6 +6,10 @@ namespace ConsolaComplejos
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Introduce la parte real ");
+           // float real = float.Parse(Console.ReadLine());
+
             Complejo c1 = new Complejo(2, 4);
             Complejo c2 = new Complejo(4, 3);
 
